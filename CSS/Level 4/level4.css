@@ -113,6 +113,6 @@ align-items: center;
 }
 @media (min-width:600px) {
     .med{
-     background-color: blue;    
+     background-color: #212121;    
     }
 }
