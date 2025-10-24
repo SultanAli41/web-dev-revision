@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*
+Display none vs visbilty hidden
+diplay:none;   // jgah nhi ly ga 
+visbilty:hidden; jagha ly ga lekin nazar nhi aa ga
+*/
+/*   % Unit
+.main{
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    border: 2px solid #000000;
+}
+.box1{
+height: 50%;
+width: 100%;
+background-color: rgb(148, 127, 255);
+}
+.box2{
+height: 50%;
+width: 100%;
+background-color: aquamarine;
+}
+*/
+/*
+USe of em 
+according to parent
+.main{
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    border: 2px solid #000000;
+    font-size: 50px;
+}
+.box1{
+height: 50%;
+width: 100%;
+background-color: rgb(148, 127, 255);
+font-size: 2em;
+
+}
+*/
+/*
+Use of rem 
+change according to root
+like browser by default font size is 16px
+1rem=16px
+2rem=32px
+*/
+/*
+Use of vh(viewport height) vw(view port width)
+
+.main{
+    width: 300px;
+    height: 30vh;
+    background-color: yellowgreen;
+    border: 2px solid #000000;
+    font-size: 2vh;
+}
+.box1{
+height: 20vh;
+width: 100%;
+background-color: rgb(148, 127, 255);
+font-size: 2vh;}
+
+
+*/
+/*Positions in CSS*/
+/*
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 232, 123, 0.5);
+    display: inline-block;
+    border: 2px black dotted;
+}
+#box1{
+
+    position: fixed;
+    background-color: rebeccapurple;
+    top:0px;
+}
+#box2{
+    position: absolute;
+    background-color: seagreen;
+     top: 60px;
+     z-index: 9;
+}
+#box3{
+    position: sticky;
+    background-color: blueviolet;
+     top: 30%;
+     z-index: 1;
+}
+#box4{
+    position:fixed;
+    background-color: bisque;
+     top:0%;
+     z-index: 9;
+}
+*/
+/*
+background image
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+    border: 2px solid black;
+}
+#box2{
+    background-image: url("https://images.unsplash.com/photo-1497206365907-f5e630693df0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+    */
+    div{
+        height: 100px;
+        width: 100px;
+        background-image: url("https://images.unsplash.com/photo-1497206365907-f5e630693df0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position:fixed;
+        right: 0px;
+        top: 50px;
+
+    }
+    p{
+        font-size: 25px;
+    }

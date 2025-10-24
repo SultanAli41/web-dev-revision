@@ -1,0 +1,42 @@
+/*Practice 1*/
+/*
+#box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+button{
+    background-color: green;
+}
+#hed{
+    text-align: center;
+    text-decoration:line-through wavy red;
+}
+#para{
+    text-align:left;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+*/
+/*Practice 2*/
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#hed{
+    text-align: center;
+    text-transform: uppercase;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

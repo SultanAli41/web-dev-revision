@@ -1,0 +1,84 @@
+/*
+#one{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+    */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*   --Usnig flex box 
+#nav{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0F1111;
+    color: white;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.navb{
+    justify-items:center;
+}
+button{
+    background-color: #FEBD69;
+    border: none;
+    height: 25px;
+    width: 55px;
+    border-radius: 2px;
+    color: white;
+
+}
+#logo{
+color: #FEBD69;
+
+}
+input{
+    margin-right: 10px;
+    height: 25px;
+}
+*/
+
+#header div{
+    width: 100%;
+    height: 30px;
+    background-color: #0f1111;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 170px;
+    font-size: 20px;
+}
+button{
+    background-color: #ff9900;
+    border: none;
+}
+#logo{
+        color: #ff9900;
+}
+#main{
+    height: 650px;
+    width: 100%;
+ 
+}
+.mainc{
+    height: 200px;
+    width: 200px;
+    border: solid red;
+       display: inline-block;
+
+}
+#footer{
+    height: 30%;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+
