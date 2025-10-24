@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+#main{
+    height: 500px;
+    width: 1200px;
+    background-color: transparent;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /*
+    flex-wrap: wrap;
+    align-items: flex-end;
+    */
+}
+
+#box1{
+    height: 190px;
+    width: 100px;
+    background-color: rgb(204, 103, 21);
+}
+#box2{
+    height: 190px;
+    width: 100px;
+    background-color: rgb(198, 28, 175);
+}
+#box3{
+    height: 250px;
+    width: 100px;
+    background-color: rgb(16, 139, 22);
+    flex-grow: 1;
+    /*
+    flex-shrink use hoo ga  jb boxs shrink hoo rahay hain tou dosron ki 
+    nisbat kitna shrink hoo
+    flex-shrink: 3;
+    */
+}
+#box4{
+    height: 190px;
+    width: 100px;
+    background-color: rgb(173, 34, 166);
+}
+#box5{
+    height: 190px;
+    width: 100px;
+    background-color: rgba(66, 23, 158, 0.142);
+    /*
+    flex-grow: 2;
+    flex-grow use hoo ga expand k liyai jitni value ziyada hoo gi 
+    utna ziyada shrink hoo ga
+    */
+    }
+.navbar{
+    height: 7vh;
+    width: 100vw;
+    background-color: #00ffff;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+ul{
+    align-content: space-between;
+}
+li{
+    display: inline-block;
+}
+/*Practice 1 Question 2*/
+#Outer{
+width: 300px;
+height: 300px;
+background-color: aquamarine;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#Inner{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+/*Media Query & practice 2*/
+.med{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+@media (max-width:300px) {
+.med{
+    background-color: green;
+}    
+}
+@media (min-width:300px) and (max-width:400px){
+    .med{
+    background-color: pink;
+    }
+}
+@media (min-width:400px) and (max-width:600px){
+    .med{
+        background-color:red;
+    }
+}
+@media (min-width:600px) {
+    .med{
+     background-color: blue;    
+    }
+}
