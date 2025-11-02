@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Loder{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #4381C1;
+    border-left: 20px solid #4E4B5C;
+    animation: Loder 2s ease-in-out infinite ;
+}
+@keyframes Loder {
+    from{
+         transform: rotate(0deg);
+    }
+    to{
+         transform: rotate(360deg);
+    }
+    
+}
+
+    
