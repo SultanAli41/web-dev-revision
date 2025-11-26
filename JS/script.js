@@ -10,3 +10,13 @@ function btn()
 console.log("Hello");
 }
 console.log(Date());
+/*
+for( var d=0; d<=10; d++){ 
+    console.log(d);
+}
+    */
+var i=10;
+while(i>1){
+    console.log(i);
+    i--;
+}
