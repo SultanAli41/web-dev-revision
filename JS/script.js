@@ -20,3 +20,12 @@ while(i>1){
     console.log(i);
     i--;
 }
+//jb code dobara use krna hoo
+// jb code direct na chalana hoo 
+function Tea(){
+    console.log("Buy Milk")
+    console.log("Use Cattele")
+    console.log("Make Tea")
+}
+Tea();
+Tea()
