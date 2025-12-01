@@ -28,4 +28,6 @@ function Tea(){
     console.log("Make Tea")
 }
 Tea();
-Tea()
+Tea();
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits);
