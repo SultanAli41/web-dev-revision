@@ -31,3 +31,12 @@ Tea();
 Tea();
 let fruits = ["Apple", "Banana", "Mango"];
 console.log(fruits);
+const student = {
+  name: "Sultan",
+  age: 21,
+  isStudent: true
+};
+
+console.log(student);
+console.log(student.name);   
+console.log(student.age);
