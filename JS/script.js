@@ -40,3 +40,6 @@ const student = {
 console.log(student);
 console.log(student.name);   
 console.log(student.age);
+document.getElementById("btn").addEventListener("click", function () {
+    alert("Button clicked!");
+});
