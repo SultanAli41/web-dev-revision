@@ -43,3 +43,17 @@ console.log(student.age);
 document.getElementById("btn").addEventListener("click", function () {
     alert("Button clicked!");
 });
+function bubbleSort(arr) {
+    let n = arr.length;
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+            }
+        }
+    }
+    return arr;
+}
+
+const numbers = [5, 2, 9, 1, 5, 6];
+console.log("Sorted:", bubbleSort(numbers));
