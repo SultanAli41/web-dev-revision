@@ -58,3 +58,5 @@ function bubbleSort(arr) {
 const numbers = [5, 2, 9, 1, 5, 6];
 console.log("Sorted:", bubbleSort(numbers));
 console.log('Date');
+console.log("hi");
+console.log("Happy New Year");
